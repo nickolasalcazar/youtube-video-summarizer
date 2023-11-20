@@ -1,0 +1,25 @@
+{
+  "name": "youtube-video-summarizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickolasalcazar/youtube-video-summarizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickolasalcazar/youtube-video-summarizer/issues"
+  },
+  "homepage": "https://github.com/nickolasalcazar/youtube-video-summarizer#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
