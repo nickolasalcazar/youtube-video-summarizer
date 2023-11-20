@@ -19,10 +19,14 @@
   },
   "homepage": "https://github.com/nickolasalcazar/youtube-video-summarizer#readme",
   "devDependencies": {
+    "@types/phin": "^3.4.0",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.19.0",
+    "phin": "^3.7.0",
     "youtube-transcript": "^1.0.6"
   }
 }
