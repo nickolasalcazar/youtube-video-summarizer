@@ -22,8 +22,6 @@ const getSummary = async (transcript: string) => {
       },
     ],
   });
-
-  // console.log(completion.choices[0]);
   return completion.choices[0].message.content;
 };
 
@@ -34,19 +32,13 @@ const getTranscript = async (url: string) => {
   response.map((token) => {
     transcript += " " + token.text;
   });
-
   return transcript;
 };
 
 const getData = async () => {
   const transcript = await getTranscript(url);
-  // console.log(transcript);
   const summary = await getSummary(transcript);
   console.log(summary);
 };
 
 getData();
-
-// const summary = getSummary("arg");
-// const summary = getSummary(transcript);
-// console.log(summary);
